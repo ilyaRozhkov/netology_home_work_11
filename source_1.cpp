@@ -16,7 +16,5 @@ void main()
 	std::cout << "Введите фамилию: ";
 	std::cin >> lastName;
 
-	std::cout << "Здравствуйте, " << firstName << " " << lastName << "!";
-
-
+	std::cout << "Здравствуйте, " + firstName + " " + lastName + "!";
 }
